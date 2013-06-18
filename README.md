@@ -9,12 +9,18 @@ For documentation and more detailed information please refer to 3proxy project(s
 
 
 To build project follow steps below:
+
 0. install android-ndk
+
 1. cd http_proxy_for_Android/jni
+
 2. ANDROID_NDK_PATH/ndk-build
+
 3. at http_proxy_for_Android/libs/armeabi/proxy you'll find output binary. 
 Push it to your device and run it from adb shell or android terminal emulator on your device:
-./proxy -help
+
+./proxy --help
+
 ./proxy -i127.0.0.1 -p8888
 
 
